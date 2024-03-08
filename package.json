@@ -1,23 +1,26 @@
 {
-  "name": "herocrud-app",
+  "name": "curd-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "autoprefixer": "10.4.15",
-    "axios": "^1.5.0",
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19",
-    "mongoose": "^7.5.1",
-    "next": "13.4.19",
-    "postcss": "8.4.29",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3"
+    "mongoose": "^8.2.1",
+    "next": "^14.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^14.1.3",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.3",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
   }
 }
